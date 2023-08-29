@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -18,7 +18,55 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  width: 98vw;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.img1{
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.img2{
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlediv1{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: black;
+  height: 2px;
+  margin-top: 20px;
+
+}
+.middlediv2{
+  margin-left: 75px;
+  margin-right: 75px;
+  background-color: black;
+  height: 2px;
+  margin-top: 20px;
+
+}
+.stuffhead{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.direct{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
